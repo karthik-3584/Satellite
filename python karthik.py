@@ -31,6 +31,6 @@ for i in range(0,n):
     elif Pannel== "Ïnactivate":
         satellite.deactivatePanels()
     satellite.collectData()
-print(f"Orientation: {satellite.orientation}")
-print(f"Solar Panels: {satellite.solar_panels}")
-print(f"Data Collected: {satellite.data_collected}")
+    print(f"Orientation: {satellite.orientation}")
+    print(f"Solar Panels: {satellite.solar_panels}")
+    print(f"Data Collected: {satellite.data_collected}")
